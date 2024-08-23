@@ -11,8 +11,8 @@ import Produtos from './routes/Produtos/index.tsx'
 const routes = createBrowserRouter([{
   path: "/", element: <App />, errorElement: <Error />, children: [
     { path: "/", element: <Home /> },
-    { path: "/", element: <Produtos /> },
-    { path: "/", element: <EditarProdutos /> },
+    { path: "/produtos", element: <Produtos /> },
+    { path: "/editar/produtos/:id", element: <EditarProdutos /> },
   ]
 }]);
 

@@ -1,6 +1,10 @@
 export default function Produtos() {
     return (
-        <div> Componente App</div>
+        <div>
+
+            <h1> Componente Produtos   </h1>
+
+        </div>
 
     )
 }

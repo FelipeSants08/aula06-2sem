@@ -1,6 +1,9 @@
 export default function Home() {
     return (
-        <div> Componente App</div>
+        <div>
+            <h1>Componente Home</h1>
+
+        </div>
 
     )
 }
