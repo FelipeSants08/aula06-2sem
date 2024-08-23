@@ -12,7 +12,7 @@ const routes = createBrowserRouter([{
   path:"/", element:<App/>, errorElement:<Error/>, children:[
     {path:"/", element:<Home/>},
     {path:"produtos", element:<Produtos/>},
-    {path:"/editar/produtos/:id", element:<EditarProdutos/>}, // /:id -> parâmetro passado para identificar o produto
+    {path:"/editar/produtos/:id", element:<EditarProdutos/>}, // /:id -> parâmetro passado para identificar o produto, tem que passar um valor (nome, número) na rota
   ]
 }]);
 
