@@ -3,6 +3,4 @@ export default function App() {
     <div> Componente App</div>
 
   )
-
-
 }
