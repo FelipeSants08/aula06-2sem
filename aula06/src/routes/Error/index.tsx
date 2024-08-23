@@ -1,7 +1,7 @@
 export default function Error(){
     return(
       <div>
-        <h1>Componente Error</h1>
+        <h1>Erro 404 - Página não encontrada...</h1>
       </div>
     );
   }
